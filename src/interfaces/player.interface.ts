@@ -4,4 +4,7 @@ export interface Player {
     team:string;
     position:String;
     nacionality:string;
+    goals:number,
+    asists:number,
+    image:string
 }

@@ -7,11 +7,11 @@ const ItemSchema = new Schema<Player>(
             type: String,
             required: true
         },
-        number: {
-            type: Number,
+        team: {
+            type: String,
             required: true
         },
-        team: {
+        nacionality: {
             type:  String,
             required: true
         },
@@ -19,8 +19,16 @@ const ItemSchema = new Schema<Player>(
             type:  String,
             required: true
         },
-        nacionality: {
+        goals: {
+            type:  Number,
+            required: true
+        },
+        image: {
             type:  String,
+            required: true
+        },
+        asists: {
+            type:  Number,
             required: true
         }
     },
