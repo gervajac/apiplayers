@@ -6,5 +6,6 @@ export interface Player {
     nacionality:string;
     goals:number,
     asists:number,
-    image:string
+    image:string,
+    favourite:boolean,
 }

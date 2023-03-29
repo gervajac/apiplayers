@@ -30,7 +30,13 @@ const ItemSchema = new Schema<Player>(
         asists: {
             type:  Number,
             required: true
+        },
+        favourite: {
+            type: Boolean,
+            required: true,
+            default: false,
         }
+
     },
     
 
